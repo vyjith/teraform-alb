@@ -1,6 +1,6 @@
 module "vpc" {
 
-  source   = "git::git@github.com:vyjith/vpc-module-fuji.git"
+  source   = "git::git@github.com:vyjith/vpc-module-terraform.git"
   vpc_cidr = "172.17.0.0/16"
   project  = "zomato"
 
